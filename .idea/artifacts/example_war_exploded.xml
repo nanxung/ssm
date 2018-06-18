@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="SSMWork:war exploded">
-    <output-path>$PROJECT_DIR$/target/hugo</output-path>
+  <artifact type="exploded-war" name="example:war exploded">
+    <output-path>$PROJECT_DIR$/target/ssm</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SSMWork" />
+          <element id="module-output" name="example" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
@@ -90,9 +90,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/hugo/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="SSMWork/web/Web" />
+      <element id="javaee-facet-resources" facet="example/web/Web" />
     </root>
   </artifact>
 </component>
